@@ -1,0 +1,39 @@
+GIT AND GITHUB :
+•	GIT
+•	GITHUB
+•	REPOSITORY
+•	WORKING DIRECTORY
+•	STAGING AREA
+•	LOCAL REPOSITORY
+•	REMOTE REPOSITORY
+•	BRANCHES
+•	GIT COMMANDS
+
+
+GIT : Git is like a saving history of my project for future references and changes. suppose there is an open source project and like some n numbers are contributing to it, it allows us to contribute to the project and allows it helps to record all the changes made in the project like name of the person, at which part of the code, at what time etc..
+
+GITHUB:  Git hub is a cloud based platform built on GIT VCS, It allows us to host our git repositories
+REPOSITORY: It is like a folder where all our changes are saved
+WORKING DIRECTORY: 	working directory is like where we are working on our current project. It is like a untracked version of our project. In this we can freely create,edit or delete our files.
+STAGING AREA: It is where our files are marked for commit. Suppose when we are happy with our changes we made in our working directory then we move them to stagging are for commit. Advantages of stagging area is when we are working on too many files in working directory we can add what files we need to stagging area instead of adding everything.
+LOCAL REPOSITORY: When we commit local repo saves all the changes permanently including everything. It is like a version of our project stored in our computer
+REMOTE REPOSITORY: It is like a shared version of our project which we host on cloud platforms like github, bitbucket etc..
+BRANCHES: It is like a separate timeline of our project. We will have a main/master branch were we have our main code which we deploy or redeploy if anything goes wrong. When some n number of devs working on a project they  create brach and develop their code and request for PR if everything is okay they merge this sideline branch to main branch
+
+GIT COMMANDS: 
+•	git init:Initialize a new Git repository.
+•	git clone <repository_url>:Create a local copy of a remote repository.
+•	git status:Check the status of your working directory and staging area.
+•	git add <file_name>: Add a file to the staging area.
+•	git add. : Add all new and modified files to the staging area.
+•	git commit -m "commit_message" : Save your staged changes to the local repository.
+•	git push: Upload your local commits to a remote repository
+•	.git pull: Fetch and merge changes from a remote repository.
+•	git log : View the commit history.
+•	git branch: List, create, or delete branches.
+•	git checkout <branch_name> : Switch to a different branch.
+•	git merge <branch_name> : Merge changes from one branch into another.
+ 
+  
+
+
